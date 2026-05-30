@@ -22,7 +22,7 @@ Runing Dev
 npm run dev
 ```
 
-Jangan lupa install Extensen Vscode ES7 by dsznaj der untuk bisa mengetikan
+Jangan lupa install Extensen Vscode ES7 by dsznajder untuk bisa mengetikan
 ```
 rafce
 ```
