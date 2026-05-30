@@ -31,4 +31,12 @@ Install React Router Dom
 npm install react-router-dom
 ```
 
+Install React Boostrap
+```
+npm install react-bootstrap bootstrap
+```
+import boostrap di main.jsx
+```
+import "bootstrap/dist/css/bootstrap.min.css";
+```
 ## PUDIN SAEPUDIN
