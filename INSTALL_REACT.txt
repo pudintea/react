@@ -1,7 +1,0 @@
-> mkdir my-folder-project
-> cd my-folder-project
-> npm create vite@latest . -- --template react
-
-
-
-===== PUDIN SAEPUDIN =====
