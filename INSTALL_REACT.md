@@ -26,12 +26,12 @@ Jangan lupa install Extensen Vscode ES7 by dsznajder untuk bisa mengetikan
 ```
 rafce
 ```
-Install React Router Dom
+## Install React Router Dom
 ```
 npm install react-router-dom
 ```
 
-Install React Boostrap
+## Install React Boostrap
 ```
 npm install react-bootstrap bootstrap
 ```
@@ -39,4 +39,5 @@ import boostrap di main.jsx
 ```
 import "bootstrap/dist/css/bootstrap.min.css";
 ```
+
 ## PUDIN SAEPUDIN
