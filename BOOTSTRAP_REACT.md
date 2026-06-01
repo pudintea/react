@@ -3,6 +3,10 @@ Install React Boostrap
 ```
 npm install react-bootstrap bootstrap
 ```
+Jika dibutuhkan Icon gunakan Boostrap Icon
+```
+npm install bootstrap-icons
+```
 import boostrap di main.jsx
 ```
 import "bootstrap/dist/css/bootstrap.min.css";
