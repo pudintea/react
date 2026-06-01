@@ -10,6 +10,7 @@ npm install bootstrap-icons
 import boostrap di main.jsx
 ```
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 ```
 Link Dokumentasi
 - V5 ([https://react-bootstrap.github.io/])
