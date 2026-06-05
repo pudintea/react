@@ -7,8 +7,9 @@ Blocks / Template
 ```
 https://ui.shadcn.com/blocks
 ```
+## Tahapan Instalasi
 Kita Install Tailwind dulu
-[Install Tailwind](https://github.com/pudintea/react/blob/main/TAILWINDCSS_REACT.md)
+* [Install Tailwind](https://github.com/pudintea/react/blob/main/TAILWINDCSS_REACT.md)
 
 
 ## Pudin Saepudin
