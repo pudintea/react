@@ -39,10 +39,10 @@ Kalau belum ada, install Node.js terlebih dahulu.
 
 Buka Terminal atau CMD.
 
-Jalankan:
+Jalankan "react-shadcn":
 
 ```bash
-npm create vite@latest
+npm create vite@latest react-shadcn -- --template react-ts
 ```
 
 Lalu akan muncul pertanyaan:
