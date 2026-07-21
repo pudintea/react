@@ -124,41 +124,42 @@ Ganti menjadi:
 Buka file:
 
 ```
-tsconfig.json
-```
-
-Di bagian:
-
-```json
-"compilerOptions"
-```
-
-Tambahkan:
-
-```json
-"baseUrl": ".",
-"paths": {
-  "@/*": ["./src/*"]
-}
-```
-
----
-
-Lalu buka
-
-```
 tsconfig.app.json
 ```
-
-Tambahkan juga:
-
+Jadi :
 ```json
-"baseUrl": ".",
-"paths": {
-  "@/*": ["./src/*"]
-}
-```
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"],
+    "module": "esnext",
+    "types": ["vite/client"],
+    "allowArbitraryExtensions": true,
+    "skipLibCheck": true,
 
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
+
+```
 ---
 
 # 7. Install @types/node
@@ -205,6 +206,7 @@ Sekarang jalankan:
 ```bash
 npx shadcn@latest init
 ```
+Pilih : Radix UI
 
 Nanti akan muncul beberapa pertanyaan.
 
