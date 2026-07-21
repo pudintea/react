@@ -121,8 +121,32 @@ Ganti menjadi:
 
 # 6. Tambahkan Alias "@"
 
-Buka file:
+Buka File
+```
+tsconfig.json
+```
 
+```
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+```
+
+Buka file:
 ```
 tsconfig.app.json
 ```
